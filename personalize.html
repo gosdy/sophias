@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Declaración del idioma para el documento -->
+<html lang="es">
+
+<head>
+  <!-- Codificación de caracteres para el documento -->
+  <meta charset="utf-8">
+  <!-- Título del documento -->
+  <title>jellyfish - productos de calidad en un solo lugar</title>
+  <!-- Optimización de la página web para dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Llamada de archivo como icono -->
+  <link type="image/png" rel="icon" href="../../resources/img/icon.ico">
+  <!-- Importación de archivos CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="../../resources/css/public.css">
+</head>
+
+<body>
+  <!-- Encabezado del documento -->
+  <header></header>
+  <!-- Contenido principal del documento -->
+  <main>
+    <!--agregar el contenido aqui-->
+      <label id="uploadimage" for="pixlInput">Upload Image<input type="file" class="inputbtn" id="pixlInput"></label>
+      <img src="../../resources/img/unknown.png"  id="pixelitimg"  alt="">
+    <canvas  id="pixelitcanvas"></canvas>
+   
+  </main>
+  <!-- Pie del documento -->
+  <footer class="page-footer indigo darken-2"></footer>
+  <!-- Importación de archivos JavaScript -->
+  <script  src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript" src="../../resources/js/pixelit.js"></script>
+  <script type="text/javascript" src="../../controllers/components.js"></script>
+  <script type="text/javascript" src="../../controllers/public/account.js"></script>
+
+  <div class="loader">
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+  </div>
+</body>
+
+</html>
