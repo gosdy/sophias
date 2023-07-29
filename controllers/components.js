@@ -5,7 +5,7 @@
 /*
 *   Constante para establecer la ruta del servidor.
 */
-const SERVER = 'http://localhost/jellyfish/api/';
+const SERVER = 'https://limier-serial.000webhostapp.com/api/';
 
 /*
 *   Función para obtener todos los registros disponibles en los mantenimientos de tablas (operación read).
